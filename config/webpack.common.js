@@ -8,6 +8,7 @@ module.exports = {
   entry: paths.entryPoint,
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
+    modules: ['node_modules', paths.src],
     alias: {
       widgets: paths.widgets,
     },
