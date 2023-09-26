@@ -1,4 +1,4 @@
-import { Counter } from '../widgets'
+import { Counter } from 'widgets/Counter'
 
 export const App = () => {
   return (

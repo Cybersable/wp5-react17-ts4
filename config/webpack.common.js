@@ -8,6 +8,9 @@ module.exports = {
   entry: paths.entryPoint,
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
+    alias: {
+      widgets: paths.widgets,
+    },
   },
   output: {
     path: paths.build,

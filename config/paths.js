@@ -7,4 +7,5 @@ module.exports = {
   src: path.resolve(root, 'src'),
   public: path.resolve(root, 'src/app/public'),
   indexHtml: path.resolve(root, 'src/app/public/index.html'),
+  widgets: path.resolve(root, 'src', 'widgets'),
 }
