@@ -50,7 +50,7 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        // { from: `${paths.public}/*.(ico|png|svg|json)`, to: '[name][ext]' },
+        { from: `${paths.public}/*.(ico|png|svg|json)`, to: '[name][ext]' },
       ],
     }),
   ],
